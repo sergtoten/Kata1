@@ -18,4 +18,13 @@ public class Person {
         this.name = name;
         this.birthDate = birthDate;
     }
+
+    public int getYear() {
+        return toYear(LocalDate.now().toEpochDay() - birthDate.toEpochDay());
+    }
+
+    public static final double DAYS_PER_YEAR = 365.25;
+    private int toYear(long days) {
+        return (int) (days / DAYS_PER_YEAR);
+    }
 }
