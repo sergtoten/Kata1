@@ -25,6 +25,6 @@ rama de trabajo donde se integraron la mayoría de los commits.
 Para clonar el repositorio se puede usar en la terminal del IntelliJ el comando `git clone`, pero también se puede hacer desde la propia interfaz antes de crear un proyecto.
 
 ## ENLACE AL VIDEO EXPLICATIVO
-
+https://youtu.be/bsxsOhUAT8c
 
 En el video explicativo se muestra como se hizo la kata repitiendo los pasos que realizó el profesor en clases.
