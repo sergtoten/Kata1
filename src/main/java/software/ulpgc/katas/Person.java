@@ -19,7 +19,7 @@ public class Person {
         this.birthDate = birthDate;
     }
 
-    public int getYear() {
+    public int age() {
         return toYear(LocalDate.now().toEpochDay() - birthDate.toEpochDay());
     }
 
