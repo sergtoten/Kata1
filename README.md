@@ -11,12 +11,17 @@ clickar en el botón de runear que tiene el propio IntelliJ o usar shift + F10, 
 
 #### - DEPENDENCIAS Y VERSION DE JDK
 - **Build System:** Maven
+- **JDK:** openjdk-27
+- En esta kata no se usó ninguna dependencia sino que se usaron las clases estándar de java que ya vienen incluidos en el propio JDK.
+
+#### - ESTRUCTURA DE LA ENTREGA Y CLASES PRINCIPALES
+- **Estructura:** La estándar de Maven
 ```
 kata1/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── software.ulpgc/
+│   │   │   └── software.ulpgc.katas/
 │   │   │       ├── Person.java
 │   │   │       └── Main.java
 │   │   └── resources/
@@ -26,13 +31,6 @@ kata1/
 ├── pom.xml
 └── README.md
 ```
-
-  
-- **JDK:** openjdk-27
-- En esta kata no se usó ninguna dependencia sino que se usaron las clases estándar de java que ya vienen incluidos en el propio JDK.
-
-#### - ESTRUCTURA DE LA ENTREGA Y CLASES PRINCIPALES
-- **Estructura:** La estándar de Maven
 - **Clases Principales:** Main y Person
 
 #### - FLUJO DE GIT USADO
