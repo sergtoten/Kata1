@@ -11,6 +11,22 @@ clickar en el botón de runear que tiene el propio IntelliJ o usar shift + F10, 
 
 #### - DEPENDENCIAS Y VERSION DE JDK
 - **Build System:** Maven
+        kata1/
+        ├── .idea/
+        ├── .mvn/
+        ├── src/
+        │   ├── main/
+        │   │   ├── java/
+        │   │   │   └── software.ulpgc/
+        │   │   │       ├── Person
+        │   │   │       └── Main
+        │   │   └── resources/
+        │   └── test/
+        ├── .gitignore
+        ├── kata1.iml
+        └── pom.xml
+        |__README.md
+  
 - **JDK:** openjdk-27
 - En esta kata no se usó ninguna dependencia sino que se usaron las clases estándar de java que ya vienen incluidos en el propio JDK.
 
